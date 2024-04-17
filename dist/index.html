@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Cátalogo De Animes Atualizado</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Aluraflix
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+</div>
+
+<h1 class="h1-information"> Deseja Adicionar um Anime ao seu Cátalogo? </h1>
+
+<div class="divNome">
+<label for="inputNome">
+  Nome do Anime
+</label>
+ <input type="text" id="inputNome" placeholder=" ">
+</div>
+
+<div class="divUrl">
+  <label for="inputUrl">
+  URL da Imagem
+  </label>
+  <input type="text" id="inputUrl" placeholder=" ">
+</div>
+
+<div class="divUrlTrailer">
+  <label for="inputUrlTrailerLabel">
+  URL do Trailer
+  </label>
+  <input type="text" id="inputUrlTrailer" placeholder=" ">
+</div>
+
+<button class="add" onClick="adicionarAnime()"> Adicionar
+</button>
+
+<div class="painel">
+</div>
+
+<h1 class="h1-information"> Deseja Remover um Anime do seu Cátalogo? </h1>
+
+<div class="delete">
+  <label for="inputRemove">
+  Nome do Anime
+</label>
+ <input type="text" id="inputRemove" placeholder=" ">
+</div>
+
+<button class="remove" onClick="removerAnime()"> Remover
+</button>
+
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
